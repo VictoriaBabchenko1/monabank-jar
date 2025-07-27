@@ -36,3 +36,28 @@
 .action-button:hover {
     background: rgba(255, 255, 255, 0.2);
 }
+
+@media (max-width: 1000px) {
+    .footer-holder {
+        background: #f3f4f6;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 32px;
+        color: black;
+    }
+
+    .footer-copyright {
+        color: black;
+        text-align: center;
+    }
+
+    .action-button {
+       display: none;
+    }
+}
+
+@media (min-height: 800px) {
+    .footer-holder {
+        background: none;
+    }
+}

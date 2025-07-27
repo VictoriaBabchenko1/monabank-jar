@@ -2,14 +2,16 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #00acac;
 }
 
 .page-content {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 20px;
 }
@@ -20,4 +22,21 @@
   border-radius: 24px;
   overflow: hidden;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    background: white;
+    height: fit-content;
+  }
+
+  .jar-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-content {
+    width: 100%;
+    gap: 10px;
+  }
 }

@@ -41,15 +41,14 @@ const PaymentForm: React.FC<PaymentFormProps> = ({ onPayment }) => {
                         </div>
                         <p className="text-light">Сума повинна бути від 10 ₴ до 29 9999 ₴</p>
                     </div>
-
-                        <div className="quick-buttons">
-                            <button className="top-up-button" onClick={() => handleAddAmount(100)}>+100 ₴</button>
-                            <button className="top-up-button" onClick={() => handleAddAmount(500)}>+500 ₴</button>
-                            <button className="top-up-button" onClick={() => handleAddAmount(1000)}>+1000 ₴</button>
-                        </div>
+                    <div className="quick-buttons">
+                        <button className="top-up-button" onClick={() => handleAddAmount(100)}>+100 ₴</button>
+                        <button className="top-up-button" onClick={() => handleAddAmount(500)}>+500 ₴</button>
+                        <button className="top-up-button" onClick={() => handleAddAmount(1000)}>+1000 ₴</button>
                     </div>
                 </div>
-                <div>
+            </div>
+            <div className="bottom-wrapper">
                 <input
                     className="comment-input"
                     type="text"

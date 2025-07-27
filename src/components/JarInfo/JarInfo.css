@@ -71,3 +71,15 @@
 .with-border {
     border-right: solid #ccc 1px;
 }
+
+@media (max-width: 1000px) {
+    .jar-info {
+        width: 100%;
+        background: white;
+        padding: 24px 24px 16px 24px;
+    }
+
+    .fund-logo-wrapper {
+        padding: 0;
+    }
+}

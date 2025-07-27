@@ -87,3 +87,26 @@
     font-size: 45px;
     color: #c57095;
 }
+
+@media (max-width: 1000px) {
+    .payment-form {
+        padding: 0 24px 0 24px;
+        width: 100%
+    }
+
+    .top-up-wrapper, .top-up-container, .bottom-wrapper, .top-up-button {
+        width: 100%
+    }
+
+    .top-up-input {
+        width: 50%;
+    }
+
+    .quick-buttons {
+        gap: 15px;
+    }
+
+    .input-block {
+        padding-top: 0;
+    }
+}
