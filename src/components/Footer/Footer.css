@@ -1,0 +1,38 @@
+@import '../../reset.css ';
+
+.footer-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .8;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border: .5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.action-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

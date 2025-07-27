@@ -1,0 +1,41 @@
+@import '../../reset.css ';
+
+.payment-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.payment-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.payment-button:hover {
+    background: #3c4043;
+}
+
+.apple-pay-img {
+    height: 20px;
+    width: auto;
+}
+
+.card-pay {
+    background-color: white;
+    border: none;
+    border-top: 1px solid #ccc;
+    color: #e85e5b;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+}

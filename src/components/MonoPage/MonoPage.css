@@ -1,0 +1,23 @@
+@import '../../reset.css ';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00acac;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.jar-container {
+  display: flex;
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  text-align: center;
+}
