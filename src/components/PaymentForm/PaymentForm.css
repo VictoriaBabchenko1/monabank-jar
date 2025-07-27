@@ -98,6 +98,10 @@
         width: 100%
     }
 
+    .top-up-button {
+        padding: 10px 0;
+    }
+
     .top-up-input {
         width: 50%;
     }
